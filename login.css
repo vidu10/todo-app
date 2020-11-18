@@ -2,18 +2,18 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url("https://listproducer.com/wp-content/uploads/2015/02/023-001-ListPrdcr-GraphicR2.png");
+	background: white;
 	background-size: cover;
 	font-family: sans-serif;
 }
 
 .loginbox{
 	width: 320px;
-	height: 320px;
+	height: 220px;
 	background: black;
 	color:#fff;
 	top: 20%;
-	left:50%;
+	left:35%;
 	position: absolute;
 	transform: translate(-50%,-50%)
 	box-sizing:border-box;
@@ -49,14 +49,17 @@ margin-bottom: 20px;
 
 }
 
-.loginbox button{
+.loginbox a{
 	border: none;
 	outline: none;
-	height:40px;
-	width: 100%;
-	background: #fb2525;
-	color: #fff;
-	font-size: 15px;
+	height:100px;
+	width: 200px;
+	background: black;
+	color: red;
+	font-size: 25px;
 	border-radius: 20px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
 }
-
